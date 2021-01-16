@@ -1,0 +1,31 @@
+{
+  "name": "a4_w1_nodeandnpm",
+  "version": "1.0.0",
+  "description": "learning node and npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"hello from node!\"",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhant-glitch/A4_W1_NodeAndNPM.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "git",
+    "github",
+    "awesomeness"
+  ],
+  "author": "Dim",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "mysql": "^2.18.1",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
