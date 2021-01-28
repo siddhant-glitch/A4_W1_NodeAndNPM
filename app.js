@@ -11,12 +11,12 @@ server.use(express.static(path.join(__dirname, 'public')));
 
 server.get("/", (req,res) => {
   console.log('hit the home route');
-  res.send('index.html');
+  res.sendFile(path.join(__dirname, 'views/index.html'));
 })
 
 server.get("/contact", (req, res) => {
   console.log('hit the contact route');
-  res.send('contact.html');
+  res.sendFile(path.join(__dirname, 'views/contact.html'));
 })
 const port = process.env.PORT || 3000;  //localhost:3000
 
